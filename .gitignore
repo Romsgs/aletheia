@@ -1,0 +1,48 @@
+./icard-django/venv
+/icard-django/venv
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+icard-react//node_modules
+icard-react//.pnp
+icard-react/.pnp.js
+
+# testing
+icard-react//coverage
+
+# production
+icard-react//build
+
+# misc
+icard-react/.DS_Store
+icard-react/.env.local
+icard-react/.env.development.local
+icard-react/.env.test.local
+icard-react/.env.production.local
+
+icard-react/npm-debug.log*
+icard-react/yarn-debug.log*
+icard-react/yarn-error.log*
+
+
+./icard-react//node_modules
+./icard-react//.pnp
+./icard-react/.pnp.js
+./
+./# testing
+./icard-react//coverage
+./
+./# production
+./icard-react//build
+./
+./# misc
+./icard-react/.DS_Store
+./icard-react/.env.local
+./icard-react/.env.development.local
+./icard-react/.env.test.local
+./icard-react/.env.production.local
+./
+./icard-react/yarn-debug.log*
+./icard-react/npm-debug.log*
+./icard-react/yarn-error.log*
